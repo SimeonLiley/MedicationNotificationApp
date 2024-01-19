@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="RedDark">#FFD32F2F</color>
+    <color name="RedLight">#FFF44336</color>
+    <color name="green">#FF8BC34A</color>
+    <color name="textPrimary">#FF212121</color>
+    <color name="textSecondary">#FF757575</color>
+    <color name="divider">#FFBDBDBD</color>
+    <color name="pink">#FFFFCDD2</color>
+</resources>

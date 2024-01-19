@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/RedDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/green"
+                android:gravity="start"
+                android:text="@string/back_button"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:textColorHighlight="@color/textSecondary"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/green"
+                android:gravity="start"
+                android:text="@string/delete"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:textColorHighlight="@color/textSecondary"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/green"
+                android:gravity="start"
+                android:text="@string/save"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:textColorHighlight="@color/textSecondary"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/medication_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/medication_name_label"
+            android:inputType="textCapWords"
+            android:paddingStart="8dp"
+            android:paddingTop="50dp"
+            android:textColor="@color/textPrimary"
+            android:textColorHighlight="@color/textSecondary"
+            android:textColorHint="@color/divider"
+            android:textSize="24sp"
+            />
+
+        <EditText
+            android:id="@+id/dosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dosage_label"
+            android:inputType="textCapSentences"
+            android:paddingStart="8dp"
+            android:textColor="@color/textPrimary"
+            android:textColorHighlight="@color/textSecondary"
+            android:textColorHint="@color/divider"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/alarm_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/time_label"
+            android:inputType="time"
+            android:paddingStart="8dp"
+            android:textColor="@color/textPrimary"
+            android:textColorHighlight="@color/textSecondary"
+            android:textColorHint="@color/divider"
+            android:textSize="24sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchcompat"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="@string/alarm_switch_label"
+            android:textColor="@color/textPrimary"
+            android:textColorHighlight="@color/textSecondary"
+            android:textColorHint="@color/divider"
+            android:textSize="24sp"
+            android:contentDescription="@string/switch_label"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MedicationNotificationApp</string>
+    <string name="title_activity_add_alarm">AddAlarmActivity</string>
+    <string name="switch_label">Alarm switch</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="medication_name_label">Medication name</string>
+    <string name="dosage_label">Dosage</string>
+    <string name="time_label">Time</string>
+    <string name="alarm_switch_label">Alert</string>
+    <string name="back_button">Back</string>
+    <string name="settings">Settings</string>
+    <string name="testDescription">Description</string>
+    <string name="testNotificationTitle">Test Notification</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="invalid_time_format">Invalid time format.</string>
+    <string name="alert_set_for_toast_text">"Alert set for "</string>
+    <string name="complete_all_fields_to_save_toast">Complete all fields to save.</string>
+    <string name="alert_off">Alert Off</string>
+    <string name="alert_on">Alert On</string>
+    <string name="mainid">mainID</string>
+    <string name="alarm_cancelled_save_to_set_alarm">Alert cancelled. Save to set alert notification.</string>
+    <string name="select_time_label">Select Time</string>
+    <string name="default_notification_description">Take a moment to check your medications are all recorded correctly.</string>
+    <string name="default_notification_title">Check your medication list?</string>
+</resources>
